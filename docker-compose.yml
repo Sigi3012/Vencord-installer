@@ -1,0 +1,8 @@
+version: '1'
+
+services:
+  vencord:
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - ./dist:/app/Vencord/dist
